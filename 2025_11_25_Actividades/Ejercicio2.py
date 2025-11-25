@@ -6,5 +6,5 @@ jugadorFutbol3 = [("Nombre","Mbappe"),("Posicion","Delantero"),("Equipo","PSG"),
 jugadores = {1:jugadorFutbol1,2:jugadorFutbol2,3:jugadorFutbol3}
 
 for jugador in jugadores:
-    for player in jugador:
+    for player in jugadores[jugador]:
         print("La etiqueta " + player[0] +" tiene el valor " + player[1])
